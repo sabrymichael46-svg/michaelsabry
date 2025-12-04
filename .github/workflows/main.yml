@@ -8,11 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Checkout code'
-        run: pwd
-        
       - uses: actions/checkout@v3
       
-      - name: 'test 3'
-        run: ls
+      - name: 'test 4'
+        run: docker login --username michaelsabry-2023040187 --password miko123
        
