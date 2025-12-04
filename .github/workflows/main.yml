@@ -11,7 +11,7 @@ jobs:
       - name: 'Checkout code'
         run: pwd
         
-      - uses: docker/login-action@v3
+      - uses: actions/checkout@v3
       
       - name: 'test 3'
         run: ls
