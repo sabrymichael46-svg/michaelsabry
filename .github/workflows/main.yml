@@ -11,5 +11,6 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: 'test 4'
-        run: docker login --username michaelsabry-2023040187 --password dckr_pat_qSJkzaqW3yM9M-Y5I6rv5iK7wHM
+        run: docker login -u "michaelsabry" --password-stdin dckr_pat_qSJkzaqW3yM9M-Y5I6rv5iK7wHM
+
        
